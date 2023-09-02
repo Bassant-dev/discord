@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
-class MyListScreen extends StatelessWidget {
+class MyListScreen2 extends StatelessWidget {
   final List<String> items = [
-    'Marsidas',
-    'toyota',
-    'lancer',
-    'fiat',
-    'nissan',
+    'chair',
+    'sofra',
+    'bed',
+
   ];
 
   @override

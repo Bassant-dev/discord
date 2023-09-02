@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled2/product_furniture.dart';
 import 'package:untitled2/product_screen.dart';
 
 class first extends StatelessWidget {
@@ -37,7 +38,7 @@ class first extends StatelessWidget {
                           child: InkWell(
 
                             onTap: (){
-
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => MyListScreen2()));
                             },
 
                             child: Column(
@@ -71,7 +72,7 @@ class first extends StatelessWidget {
                           child: InkWell(
 
                             onTap: (){
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => ProductsScreen()));
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => MyListScreen()));
                             },
 
                             child: Column(
